@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Main Navigation",
+    "heading": "true",
+    "translate": "sidebar.heading.HEADER"
+  },
+  {
+    "text": "Customer Profile",
+    "sref": "app.customer-profile",
+    "icon": "icon-user",
+    "label": "label label-info"
+  },
+  {
+    "text": "Appointments",
+    "sref": "app.customer-appointments-service",
+    "icon": "icon-layers",
+    "alert": "3" ,	
+    "label": "label label-success"
+  }, 
+  {
+    "text": "Schedule Service",
+    "sref": "app.customer-schedule-service",
+    "icon": "icon-calendar",
+    "label": "label label-success"
+  },    
+  {
+    "text": "Service History",
+    "sref": "app.customer-service-history",
+    "icon": "icon-screen-tablet",
+    "label": "label label-success"
+  },
+   {
+    "text": "Logout",
+    "sref": "page.login",
+    "icon": "icon-logout",
+    "label": "label label-success"
+  }
+]

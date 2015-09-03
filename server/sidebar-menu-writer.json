@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Main Navigation",
+    "heading": "true",
+    "translate": "sidebar.heading.HEADER"
+  },
+  {
+    "text": "Appointments",
+    "sref": "app.writer-appointments",
+    "icon": "icon-calendar",
+    "alert": "3" ,
+    "label": "label label-info"
+  },
+  {
+    "text": "Services",
+    "sref": "app.writer-services",
+    "icon": "icon-layers",
+    "label": "label label-success"
+  },
+  {
+    "text": "Technicians",
+    "sref": "app.writer-tech-management",
+    "icon": "icon-user",
+    "label": "label label-success"
+  },  
+  {
+    "text": "Customers",
+    "sref": "app.writer-customer-management",
+    "icon": "icon-users",
+    "label": "label label-success"
+  },    
+  {
+    "text": "Inventory",
+    "sref": "app.writer-customer-management",
+    "icon": "icon-grid",
+    "label": "label label-success"
+  },   
+  {
+    "text": "Repository",
+    "sref": "app.writer-repository",
+    "icon": "icon-doc",
+    "label": "label label-success"
+  },     
+  {
+    "text": "Hours",
+    "sref": "app.writer-hours",
+    "icon": "icon-clock",
+    "label": "label label-success"
+  },    
+  {
+    "text": "Chat",
+    "sref": "app.writer-hours",
+    "icon": "icon-bubbles",
+    "label": "label label-success"
+  },
+   {
+    "text": "Logout",
+    "sref": "page.login",
+    "icon": "icon-logout",
+    "label": "label label-success"
+  }
+]

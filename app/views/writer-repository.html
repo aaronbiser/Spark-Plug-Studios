@@ -1,0 +1,39 @@
+<h3>Writer Repository</h3>
+
+<div class="row">
+	
+	<div class="col-xs-12">
+
+      <div class="panel panel-default">
+         <div class="panel-heading">Datatables</div>
+         <div class="panel-body">
+            <div ng-controller="DataTableController as table1">
+               <table datatable="ng" class="row-border hover">
+                  <thead>
+                     <tr>
+                        <th>Person ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr ng-repeat="person in table1.persons">
+                        <td>{{ person.id }}</td>
+                        <td>{{ person.firstName }}</td>
+                        <td>{{ person.lastName }}</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+	
+	
+	</div><!--col-->	
+	
+	
+	
+</div><!--row-->	
+
+
+

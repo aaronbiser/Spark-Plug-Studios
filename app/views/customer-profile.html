@@ -1,0 +1,179 @@
+<!--<h3>Customer Profile</h3>-->
+
+<div class="unwrap" style="margin-bottom: 20px !important;">
+	
+	<div style="background-image: url(app/img/profile-bg.jpg)" class="bg-cover">
+	   <div class="p-xl text-center text-white">
+	      <img src="app/img/user/09.jpg" alt="Image" class="img-thumbnail img-circle thumb128" />
+	      <h3 class="m0">Natalie Berry</h3>
+	      <p>Customer Since 2011</p>
+	      <p>2015 Audi S4 - 4 Door</p>
+	   </div>
+	</div>
+	
+</div><!--unwrap-->
+
+<div class="row">
+	
+	<div class="col-lg-6">
+	   <!-- START panel-->
+	   <div class="panel panel-default">
+	      <div class="panel-heading">Kitchen Sink</div>
+	      <div class="panel-body">
+	         <!-- START table-responsive-->
+	         <div class="table-responsive">
+	            <table class="table table-striped table-bordered table-hover">
+	               <thead>
+	                  <tr>
+	                     <th>#</th>
+	                     <th>First Name</th>
+	                     <th>Last Name</th>
+	                     <th>Username</th>
+	                  </tr>
+	               </thead>
+	               <tbody>
+	                  <tr>
+	                     <td>1</td>
+	                     <td>Mark</td>
+	                     <td>Otto</td>
+	                     <td>@mdo</td>
+	                  </tr>
+	                  <tr>
+	                     <td>2</td>
+	                     <td>Jacob</td>
+	                     <td>Thornton</td>
+	                     <td>@fat</td>
+	                  </tr>
+	                  <tr>
+	                     <td>3</td>
+	                     <td>Larry</td>
+	                     <td>the Bird</td>
+	                     <td>@twitter</td>
+	                  </tr>
+	               </tbody>
+	            </table>
+	         </div>
+	         <!-- END table-responsive-->
+	      </div>
+	   </div>
+	   <!-- END panel-->
+	</div><!--col-->
+	
+	
+	<div class="col-md-6 pull-right" ng-controller="FormxEditableController as form">
+	   <div class="panel panel-default">
+	      <div class="panel-heading">HTML5 Inputs</div>
+	      <div class="panel-body">
+	         <div class="form-horizontal">
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Email:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-email="form.user.email">{{ form.user.email || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Tel:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-tel="form.user.tel" e-pattern="\d{3}-\d{2}-\d{2}" e-title="xxx-xx-xx">{{ form.user.tel || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Number:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-number="form.user.number" e-min="18">{{ form.user.number || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Range:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-range="form.user.range" e-step="5">{{ form.user.range || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Url:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-url="form.user.url">{{ form.user.url || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Search:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-search="form.user.search">{{ form.user.search || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Color:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-color="form.user.color">{{ form.user.color || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Date:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-date="form.user.date">{{ form.user.date || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Time:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-time="form.user.time">{{ form.user.time || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Datetime:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-datetime="form.user.datetime">{{ form.user.datetime || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Month:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-month="form.user.month">{{ form.user.month || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	            <div class="form-group m0">
+	               <label class="col-sm-4 control-label">Week:</label>
+	               <div class="col-sm-8">
+	                  <p class="form-control-static"><a href="#" editable-week="form.user.week">{{ form.user.week || &apos;empty&apos; }}</a>
+	                  </p>
+	               </div>
+	            </div>
+	         </div>
+	      </div>
+	   </div>
+	</div><!--col-->
+	
+	
+	<div class="col-lg-6">
+		<div class="calendar-app">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div calendar=""></div>
+				</div>
+			</div>
+		</div><!-- Calendar -->
+	</div><!-- col -->
+	
+	
+	<div class="col-md-6" ng-controller="GMapController as gmap">
+	   <div class="panel panel-default">
+	      <div class="panel-heading">Classic Map</div>
+	      <div class="panel-body">
+	         <div ui-map="gmap.myMap1" ui-options="gmap.mapOptions1" class="gmap"></div>
+	      </div>
+	   </div>
+	</div><!--col-->
+	
+	
+</div><!--row-->	

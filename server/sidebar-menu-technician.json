@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Main Navigation",
+    "heading": "true",
+    "translate": "sidebar.heading.HEADER"
+  },
+  {
+    "text": "Job Assignments",
+    "sref": "app.technician-assignments",
+    "icon": "icon-wrench",
+    "alert": "3" ,
+    "label": "label label-info"
+  },
+  {
+    "text": "Inspection Assignments",
+    "sref": "app.technician-inspections",
+    "icon": "icon-bag",
+    "label": "label label-success"
+  }, 
+  {
+    "text": "Hours",
+    "sref": "app.writer-hours",
+    "icon": "icon-clock",
+    "label": "label label-success"
+  },    
+  {
+    "text": "Chat",
+    "sref": "app.writer-hours",
+    "icon": "icon-bubbles",
+    "label": "label label-success"
+  },
+   {
+    "text": "Logout",
+    "sref": "page.login",
+    "icon": "icon-logout",
+    "label": "label label-success"
+  }
+]
